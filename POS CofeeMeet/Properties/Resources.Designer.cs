@@ -63,6 +63,36 @@ namespace POS_CofeeMeet.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_Feb_3__2026__07_25_33_PM {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image Feb 3, 2026, 07_25_33 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_Feb_3__2026__07_25_33_PM1 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image Feb 3, 2026, 07_25_33 PM1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_Feb_3__2026__07_25_33_PM2 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image Feb 3, 2026, 07_25_33 PM2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ChatGPT_Image_Jan_29__2026__07_02_41_PM {
             get {
                 object obj = ResourceManager.GetObject("ChatGPT Image Jan 29, 2026, 07_02_41 PM", resourceCulture);

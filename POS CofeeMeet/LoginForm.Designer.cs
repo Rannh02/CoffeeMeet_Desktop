@@ -37,35 +37,22 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
-            pictureBox1 = new PictureBox();
             label1 = new Label();
             UserTxtBox = new Guna.UI2.WinForms.Guna2TextBox();
             PasswordTxtBox = new Guna.UI2.WinForms.Guna2TextBox();
             LoginButton = new Guna.UI2.WinForms.Guna2Button();
             CancelButton = new Guna.UI2.WinForms.Guna2Button();
             label2 = new Label();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Anchor = AnchorStyles.None;
-            pictureBox1.Image = Properties.Resources.ChatGPT_Image_Jan_29__2026__07_02_41_PM;
-            pictureBox1.Location = new Point(12, -38);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(189, 212);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
             // 
             // label1
             // 
             label1.Anchor = AnchorStyles.None;
             label1.Font = new Font("Cooper Black", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.FromArgb(69, 40, 41);
-            label1.Location = new Point(152, 43);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(108, 65);
             label1.Name = "label1";
-            label1.Size = new Size(119, 50);
+            label1.Size = new Size(115, 47);
             label1.TabIndex = 1;
             label1.Text = "Login";
             // 
@@ -174,17 +161,18 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Copperplate Gothic Light", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(68, 103);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(65, 112);
             label2.Name = "label2";
             label2.Size = new Size(203, 16);
             label2.TabIndex = 6;
             label2.Text = "Welcome to Login form";
             // 
-            // Form1
+            // LoginForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(247, 238, 232);
+            BackColor = Color.FromArgb(38, 41, 49);
             ClientSize = new Size(337, 325);
             Controls.Add(label2);
             Controls.Add(CancelButton);
@@ -192,21 +180,17 @@
             Controls.Add(PasswordTxtBox);
             Controls.Add(UserTxtBox);
             Controls.Add(label1);
-            Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
-            Name = "Form1";
+            Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "CofeeMeet Login";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private PictureBox pictureBox1;
         private Label label1;
         private Guna.UI2.WinForms.Guna2TextBox UserTxtBox;
         private Guna.UI2.WinForms.Guna2TextBox PasswordTxtBox;
